@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html {
+	font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Saira', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #1e555c;
+  color: #FFF;
+}
+
+#container {
+	position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	text-align: center;
+  	min-width: 19rem;
+  	max-width: 100%;
+}
+
+#break-label, #session-label, #timer-label {
+	font-size: 1.5rem;
+	padding-bottom: 0.5rem;
+}
+
+#break-container, #session-container, #timer-container, #control-container {
+		padding-bottom: 1rem;
+}
+
+#control-container {
+	padding-top: 1rem;
+}
+
+#break-length, #session-length {
+	font-family: 'Saira', sans-serif;
+	padding: 0 0.5rem 0 0.5rem;
+	font-size: 1.5rem;
+	display: inline-block;
+	width: 1.75em;
+}
+
+#timer-container {
+	width: 13rem;
+	margin: 0 auto;
+	border: 0.4rem solid #13353a;
+	-webkit-border-radius: 2.5rem;
+    -moz-border-radius: 2.5rem;
+    -ms-border-radius: 2.5rem;
+    border-radius: 2.5rem;
+    padding: 1rem;
+    text-align: center;
+  }
+
+h1 {
+	font-family: 'Saira', sans-serif;
+	font-size: 2.5rem;
+}
+
+button {
+	background-color: transparent;
+	border: none;
+	color: #FFF;
+	cursor: pointer;
+	outline: none;
+}
+
+  button:hover{
+  	opacity: 0.8;
+  }
+
+.icon-Size {
+	font-size: 1.4rem;
+}
+
+#time-left {
+	font-size: 3rem;
+	font-family: 'Saira', sans-serif;
+}
+
+@media (min-width: 576px) {
+	#break-container, #session-container {
+		display: inline-block;
+	}
+
+	#break-container {
+		padding-right: 2.5rem;
+	}
+
+}
